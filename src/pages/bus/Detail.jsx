@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import Destination from '../../components/destination/Destination'
 import DepartTime from '../../components/departtime/DepartTime'
-import Seat from '../../components/seat/Seat'
+import Seat, { BusSeatLayout } from '../../components/seat/Seat'
 
 
 const Detail = () => {
@@ -49,7 +49,7 @@ const Detail = () => {
                     </div>
 
                     {/*Seat Selection*/}
-                    <Seat/>
+                    <BusSeatLayout/>
 
                     {/*checkout Btn*/}
                     <div className="flex">
