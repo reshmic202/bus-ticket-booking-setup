@@ -47,7 +47,7 @@ const Checkout = () => {
 <div className=' flex items-center justify-center  rounded-md flex-col col-span-2 w-full mt-24 gap-4'>
 
 
-          <div className=' bg-slate-700 p-4 w-full'>
+          <div className='  p-4 w-full'>
             <h1 className=' font-bold text-xl text-center'>Your Booking Status</h1>
             <hr className=' w-full border-[0.5] mb-2 mt-2'/>
             <div className=' text-left flex flex-col gap-3'>
